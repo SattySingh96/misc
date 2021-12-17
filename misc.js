@@ -131,9 +131,9 @@ Array.prototype.remove = function (index) {
   this.splice(index, 1);
 };
 
+console.log("line 134")
 const berryTemplate = document.getElementById("berry");
 console.log(berryTemplate)
-console.log(`this is the berry image url: ${berryTemplate}`)
 
 let baseDone = false;
 
@@ -150,8 +150,8 @@ let inv = {
 
 const game = document.getElementById("game");
 
+console.log("line 152")
 const collect = document.getElementById("collect");
-console.log(`this is collect: ${collect}`)
 console.log(collect);
 
 window.addEventListener("keyup", function (event) {
