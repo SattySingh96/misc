@@ -132,6 +132,7 @@ Array.prototype.remove = function (index) {
 };
 
 const berryTemplate = document.getElementById("berry");
+console.log(berryTemplate)
 console.log(`this is the berry image url: ${berryTemplate}`)
 
 let baseDone = false;
@@ -150,6 +151,7 @@ let inv = {
 const game = document.getElementById("game");
 
 const collect = document.getElementById("collect");
+console.log(`this is collect: ${collect}`)
 console.log(collect);
 
 window.addEventListener("keyup", function (event) {
