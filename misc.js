@@ -131,7 +131,7 @@ Array.prototype.remove = function (index) {
   this.splice(index, 1);
 };
 
-console.log("line 134")
+//console.log("line 134")
 const berryTemplate = document.getElementById("berry");
 console.log(berryTemplate)
 
@@ -150,7 +150,7 @@ let inv = {
 
 const game = document.getElementById("game");
 
-console.log("line 152")
+//console.log("line 152")
 const collect = document.getElementById("collect");
 console.log(collect);
 
