@@ -1,9 +1,7 @@
-window.addEventListener("keydown", function (event) {
-  //console.log("yee");
+window.addEventListener("keydown", function (event) {  
   if (event.key === " ") {
     event.preventDefault();
-    for (let i = 0, l = character.detection.length; i < l; i++) {
-      console.log();
+    for (let i = 0, l = character.detection.length; i < l; i++) {     
       let location = map[character.detection[i].x][character.detection[i].y];
       switch (character.detection[i].object) {
         case "berry":
@@ -48,8 +46,7 @@ window.addEventListener("keydown", function (event) {
         case "shop":
           this.window.location.replace("https://www.google.com")
           break;
-      }
-      console.log(inv);
+      }      
     }
   }
 
@@ -74,8 +71,7 @@ window.addEventListener("keydown", function (event) {
       window.location.href = "day2.html";
     });
   }
-
-  console.log("keydown");
+  
   interface.keydown[event.key] = true;
   if (false) console.log("ye");
 });
@@ -323,9 +319,10 @@ function mapInit() {
         case "shop":
           console.log("in shop map init")
           let shop = document.getElementById("shop").cloneNode("true");
+          console.log(shop)
           
           shop.children[0].removeAttribute("loading");
-          shop.children[0].src = "https://uploads-ssl.webflow.com/61b947a5cf42f024c5b17762/61b947a5cf42f0f444b177a0_np_home_671841_000000.png";
+          shop.children[0].src = "https://uploads-ssl.webflow.com/61bd303706df37b48dacf152/61bd303706df378f5aacf18e_MossShelter.svg";
 
           map[mapObj[i].x][mapObj[i].y].push({
             path: mapObj[i].path,
