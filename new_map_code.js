@@ -47,6 +47,7 @@ window.addEventListener("keydown", function (event) {
           break;
         case "shop":
           this.window.location.replace("https://www.google.com")
+          break;
       }
       console.log(inv);
     }
