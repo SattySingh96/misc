@@ -178,6 +178,7 @@ function getRandomInt(max) {
 }
 
 function mapInit() {
+  console.log("initialising map")
   for (let i = 0; i < 120; i++) {
     map.push([]);
     for (let i2 = 0; i2 < 35; i2++) {
@@ -320,6 +321,7 @@ function mapInit() {
           game.appendChild(base);
           break;
         case "shop":
+          console.log("in shop map init")
           let shop = document.getElementById("shop").cloneNode("true");
           
           shop.children[0].removeAttribute("loading");
