@@ -771,7 +771,7 @@ mapObj = [
   { x: 57, y: 18, path: "open", object: "berry" },
   { x: 110, y: 28, path: "open", object: "berry" },
   //SHOP
-  { x: 1, y: 1, path: "blocked", object: "shop"},
+  { x: 72, y: 6, path: "blocked", object: "shop"},
   // TREES
   { x: 6, y: 6, path: "blocked", object: "tree", variant: "tree1" },
   { x: 3, y: 9, path: "blocked", object: "tree", variant: "tree1" },
