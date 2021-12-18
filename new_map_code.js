@@ -328,7 +328,7 @@ function mapInit() {
           map[mapObj[i].x][mapObj[i].y].push({
             path: mapObj[i].path,
             object: mapObj[i].object,
-            ref: base,
+            ref: shop,
             x: mapObj[i].x,
             y: mapObj[i].y,
           });
